@@ -1,0 +1,410 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/sf_body.png) top repeat-x #FFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #333;
+  font-size: 63.5%;
+}
+
+a {
+  color: #456634;
+}
+
+a img {
+  border: none;
+}
+
+h2, h3, h4 {
+  font-family: Quicksand, sans-serif;
+  margin-top: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  letter-spacing: -2px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* id */
+#main {
+  width: 990px;
+  margin: auto;
+}
+
+#testa {
+  height: 103px;
+}
+
+#testa img#logo {
+  float: left;
+  margin-left: 30px;
+  margin-top: 6px;
+}
+
+#testa a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#testa a:hover {
+  color: #CCC;
+}
+
+#testa a img {
+  border: none;
+}
+
+#testa ul {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 60px;
+}
+
+#testa ul li {
+  float: left;
+  width: 105px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  color: #FFF;
+  font-size: 13px;
+  list-style: none;
+  margin-top: 3px;
+}
+
+#testa span {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+#testa .home {
+  color: #99C;
+}
+
+#testa .whitepaper {
+  color: #9C0;
+}
+
+#testa .roadmap {
+  color: #fa6464;
+}
+
+#testa .getstarted {
+  color: #FD0;
+}
+
+#testa .wiki {
+  color: #09F;
+}
+
+#testa .issues {
+  color: #F66;
+}
+
+#testa .source {
+  color: #ff9530;
+}
+
+#testa .case_success {
+  color: #F0F;
+}
+
+#testa .support {
+  color: #999999;
+}
+
+
+#primo_piano {
+  background: url(../images/sf_primopiano.png) top left no-repeat;
+  height: 348px;
+  margin-top: 10px;
+}
+
+#primo_piano a {
+  font-size: 13px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#primo_piano #slideshow {
+  padding-top: 18px;
+}
+
+#primo_piano #follow_us {
+  float: right;
+  height: 300px;
+  margin-right: 5px;
+  margin-top: 15px;
+  width: 295px;
+}
+
+#follow_us ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#follow_us ul li {
+  list-style: none;
+  float: left;
+  width: 145px;
+  font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 35px;
+  padding-top: 35px;
+}
+
+#follow_us ul li a {
+  color: #456634;
+  text-decoration: none;
+}
+
+#follow_us ul li.email {
+  background: url(../images/icone/email.png) top center no-repeat;
+  width: 280px;
+}
+
+#follow_us ul li.googlegroup {
+  background: url(../images/icone/googlegroup.png) top center no-repeat;
+}
+
+#follow_us ul li.nabble {
+  background: url(../images/icone/nabble.png) top center no-repeat;
+}
+
+#follow_us ul li.rss {
+  background: url(../images/icone/rss.png) top center no-repeat;
+}
+
+#follow_us ul li.twitter {
+  background: url(../images/icone/twitter.png) top center no-repeat;
+}
+
+#primo_piano #language {
+  width: 250px;
+  height: 30px;
+  float: right;
+  padding-right: 30px;
+  margin-top: 8px;
+  text-align: right;
+}
+
+#primo_piano #addthis {
+  margin-top: 12px;
+  margin-left: 320px;
+}
+
+#corpo {
+  background: url(../images/sf_corpo.png) center repeat-y;
+  font-size: 13px;
+  color: #666;
+  padding-top: 1px;
+}
+
+.col_destra {
+  width: 260px;
+  float: right;
+  padding-right: 40px;
+}
+
+.col_sinistra {
+  margin-right: 330px;
+  padding-left: 30px;
+}
+
+#corpo .col_sinistra {
+  padding-bottom: 10px;
+}
+
+#corpo .col_sinistra div {
+  /*margin-bottom: -50px;*/
+  /*border-bottom: 1px solid #405C3A;*/
+  /*AGGIUNTO DA MASSI*/
+  border-bottom: none;
+}
+
+#social {
+  background: url(../images/sf_corpo.png) center repeat-y;
+  font-size: 13px;
+  color: #666;
+  padding-top: 1px;
+}
+
+#social .col_sinistra {
+  padding-bottom: 10px;
+}
+
+#social .col_sinistra div {
+  margin-bottom: -50px;
+  /*border-bottom: 1px solid #405C3A;*/
+  /*AGGIUNTO DA MASSI*/
+  border-bottom: none;
+}
+
+#social .col_sinistra div#addthis {
+  margin-bottom: 0px;
+  border: none;
+  margin-left: -3px;
+  text-align: center;
+}
+
+#corpo .col_destra h3 {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+#corpo .col_destra p {
+  border-bottom: 1px solid #CCC;
+}
+
+#fine_corpo {
+  background: url(../images/sf_fine_corpo.png) center no-repeat;
+  height: 20px;
+}
+
+#about {
+  background: url(../images/sf_about.png) center repeat-y;
+  color: #8FBC8F;
+  font-size: 12px;
+}
+
+#about h3 {
+  color: white;
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+#about h2, #about p {
+  padding: 0px;
+  margin: 0px;
+  text-align: justify;
+}
+
+#piedi {
+  background: url(../images/sf_piedi.png) top center no-repeat;
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-bottom: 10px;
+}
+
+#piedi img {
+  float: right;
+  margin-right: 20px;
+  margin-top: -3px;
+  margin-bottom: 10px;
+}
+
+#languages {
+  margin: 0 0 0 910px;
+  padding: 0;
+  text-align: right;
+  position: absolute;
+  width: auto;
+  top: 106px;
+}
+
+#languages #language {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#languages #language li {
+  display: inline;
+  padding-left: 3px;
+}
+
+.twtr-widget-profile img.twtr-profile-img {
+  border: 0 none !important;
+  display: none !important;
+  float: left !important;
+}
+
+.twtr-hd {
+  overflow: hidden !important;
+  padding: 5px !important;
+  position: relative !important;
+}
+
+.twtr-ft div {
+  overflow: hidden !important;
+  padding: 5px !important;
+}
+
+.twtr-ft div a {
+  display: none !important;
+}
+
+.twtr-scroll .twtr-timeline {
+
+}
+
+#tweet-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#pagination {
+    margin-bottom: 0 !important;
+}
+
+#pagination ul {
+    border:0; margin:0; padding:0;
+    text-align: center;
+}
+#pagination li {
+    border:0; margin:0; padding:0;
+    font-size: 11px;
+    list-style: none;
+    display: inline;
+}
+#pagination a {
+    border:solid 1px #DDDDDD;
+    margin-right:2px;
+}
+#pagination .previous-off, #pagination .next-off {
+    font-weight:bold;
+    padding:3px 4px;
+}
+#pagination .next a, #pagination .previous a {
+    font-weight:bold;
+    border:solid 1px #FFFFFF;
+} 
+#pagination .active {
+    color: #8FBC8F;
+    font-weight:bold;
+    padding:4px 6px;
+}
+#pagination a:link, #pagination a:visited {
+    color: #8FBC8F;
+    padding:3px 6px;
+    text-decoration:none;
+}
+#pagination a:hover {
+    border:solid 1px #666666;
+}
+#scd-navigator {
+    display: table;
+    width: 100%;
+    margin-top: 70px;
+}
+#scd-navigator-prev {
+    display: table-cell;
+}
+#scd-navigator-next {
+    display: table-cell;
+    text-align: right;
+}
+iframe[id^='twitter-widget-']{ 
+  width:100%;
+}

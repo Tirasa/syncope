@@ -1,0 +1,24 @@
+
+#accordion{
+  font-size: 13px;
+  font-family: Verdana,Tahoma,sans-serif;
+  margin-bottom: 1px;
+}
+
+#accordion .ui-accordion-header {
+  background: none repeat-x scroll #E6E6E6;
+  margin-bottom: 0px;
+}
+
+#accordion .ui-accordion-content {  
+  font-size: 13px;
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #34302D;
+  font-family: Verdana,Tahoma,sans-serif;
+}
+
+#accordion .ui-accordion-header-active{
+  background: none repeat-x scroll #E6E6E6;
+}
+
+

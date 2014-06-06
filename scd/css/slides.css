@@ -1,0 +1,33 @@
+/*
+	Page style
+*/
+
+#slideshow {
+	width: 660px;
+	height: 290px;
+	margin-left: 14px;
+}
+
+.slides_control {
+	width: auto !important;
+}
+
+#slideshow img {
+	position: absolute;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	display: none
+}
+
+/*
+	Pagination
+*/
+
+#slideshow .pagination {
+	display: none;
+}
